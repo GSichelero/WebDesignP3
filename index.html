@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    body {
+        width:100%;
+        height:100%;
+        margin:0;
+        padding:0;
+    }
+
+    div.navbar{
+        background-color: #5c97d8;
+        height: 40px;
+        display: flex;
+        overflow: hidden;
+    }
+
+    h1 {
+    text-align:center;
+    font-family: 'Advent Pro', sans-serif;
+    color: #6d7781;
+    }
+
+    header{
+        background-color: #b3d7fd;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    div.signup{
+        background-color: #d6eafd;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div.content{
+        background-color: #eaedf0;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        clear: left;
+    }
+
+    div.feature1{
+        background-color: #f5cd92;
+        height: 300px;
+        width: 33.333%;
+        display: flex;
+        float: left;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    div.feature2{
+        background-color: #cac6f8;
+        height: 300px;
+        width: 33.333%;
+        display: flex;
+        float: left;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    div.feature3{
+        background-color: #f1959e;
+        height: 300px;
+        width: 33.333%;
+        display: flex;
+        float: left;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    @media only screen and (min-width: 768px) {
+        div.signup{
+            clear: left;
+        }
+    }
+
+    @media only screen and (min-width: 481px) and (max-width:768px) {
+        div.signup{
+            width: 50%;
+            height: 200px;
+        }
+        div.feature1{
+            width: 50%;
+            height: 200px;
+        }
+        div.feature2{
+            width: 50%;
+            height: 200px;
+        }
+        div.feature3{
+            width: 50%;
+            height: 200px;
+        }
+    }
+
+    @media only screen and (max-width:480px) {
+        header{
+            height: 150px;
+        }
+        div.signup{
+            clear: left;
+            height: 150px;
+        }
+        div.feature1{
+            width: 100%;
+            height: 150px;
+        }
+        div.feature2{
+            width: 100%;
+            height: 150px;
+        }
+        div.feature3{
+            width: 100%;
+            height: 150px;
+        }
+    }
+
+</style>
+
+<body>
+    <div class="navbar"></div>
+
+    <header>
+        <h1>(HEADER)</h1>
+    </header>
+
+    <div class="feature1">
+        <h1>(FEATURE)</h1>
+    </div>
+
+    <div class="feature2">
+        <h1>(FEATURE)</h1>
+    </div>
+
+    <div class="feature3">
+        <h1>(FEATURE)</h1>
+    </div>
+
+    <div class="signup">
+        <h1>(SIGN UP)</h1>
+    </div>
+
+    <div class="content">
+        <h1>(CONTENT)</h1>
+    </div>
+
+</body>
+</html>
